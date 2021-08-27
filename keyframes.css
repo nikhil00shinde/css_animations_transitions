@@ -6,7 +6,7 @@ body{
     background-color: white;
     height: 200px;
     width: 200px;
-    /* position: relative; */
+    position: relative;
     animation: myanimation;
     animation-duration: 4s;
     animation-iteration-count: 2; /* iteration count can have a number also */
@@ -73,5 +73,4 @@ Actually animating top and left properties is a bad idea. Browsers are optimized
         background-color: white;
         border-radius: 50% 50% 50% 50%;
     }
-    
 }
